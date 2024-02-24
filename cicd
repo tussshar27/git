@@ -1,1 +1,13 @@
 CI/CD - stands for continuous integration and continuous deployment.
+
+syntax to write YAML file:
+name:      #optional.. name of workflow
+on: push   #trigger to run the workflow
+jobs:      #main thing inside workflow
+  builds:            #first job
+    runs-on:        #runner
+
+    steps:          #steps performed in job
+      - uses: actions/checkout@v4
+      - name: running a sample github action
+        run: echo "This workflow run successfully"
