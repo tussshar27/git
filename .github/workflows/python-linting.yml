@@ -1,9 +1,6 @@
----
 name: Lint
 
-on:  # yamllint disable-line rule: truthy
-  push: null
-  pull_request: null
+on: push
 
 jobs:
   build:
@@ -29,4 +26,3 @@ jobs:
         env:
           # To report GitHub Actions status checks
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-...
