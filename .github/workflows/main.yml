@@ -12,5 +12,5 @@ jobs:
         run: echo "this workflow run successfully for this particular action"
 
       - name: stimulating error
-        run: echo "error take place"; exit 1
+        run: echo "error take place"; #exit 1
       
