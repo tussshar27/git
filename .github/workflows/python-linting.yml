@@ -11,4 +11,9 @@ jobs:
       - name: Super-Linter
         run: echo "py-linter sun successful"
 
+      - name: Checkout code
+        uses: action/checkout@v2
+        with:
+          fetch-depth: 2
+
             
