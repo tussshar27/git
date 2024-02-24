@@ -3,7 +3,7 @@ name: linting python code
 on: push
 
 jobs:
-  python-linting-code:
+  build:
     runs-on: ubuntu-latest
 
     steps:
