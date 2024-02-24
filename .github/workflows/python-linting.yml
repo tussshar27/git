@@ -7,9 +7,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: super-linter/super-linter@v6.2.0
       - name: Super-Linter
-        run: echo "py-linter sun successful"
+        uses: super-linter/super-linter@v6.2.0
 
       - name: Checkout code
         uses: action/checkout@v2
