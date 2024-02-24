@@ -10,9 +10,3 @@ jobs:
       - name: Super-Linter
         uses: super-linter/super-linter@v6.2.0
 
-      - name: Checkout code
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 2
-
-            
